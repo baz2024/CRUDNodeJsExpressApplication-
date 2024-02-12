@@ -36,8 +36,8 @@ _**In this lab you will create a fully working project with several CRUD operati
 
 _ **Your project will eventually look like this:** _
 
-![](first.png)
-![alt text]()
+
+![](https://github.com/baz2024/CRUDNodeJsExpressApplication-/blob/main/first.png)
 # Step 1- APPLY – Create the Sample\_data table in MySQL needed for our project
 
 You have to run following query, which will create  **sample\_data**  table in your MySQL Database.
