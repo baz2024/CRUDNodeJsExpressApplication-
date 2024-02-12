@@ -36,18 +36,19 @@ _**In this lab you will create a fully working project with several CRUD operati
 
 _ **Your project will eventually look like this:** _
 
-![](RackMultipart20240212-1-5or5ms_html_dcb6e683f5de0cc.png)
-
+![](first.png)
+![alt text]()
 # Step 1- APPLY – Create the Sample\_data table in MySQL needed for our project
 
 You have to run following query, which will create  **sample\_data**  table in your MySQL Database.
 
 ##### Create the database
 
-`create database sample;`
+```
+create database sample;
+use sample;
 
-`use sample;sample\_data;
-`
+```
  
 
 #####  Table structure for table `sample_data`** 
