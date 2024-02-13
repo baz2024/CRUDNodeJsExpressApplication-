@@ -106,7 +106,7 @@ ADD PRIMARY KEY (`id`);
  
 ```
 ALTER TABLE `sample_data`
-MODIFY `id` int(10) NOT NULL AUTO\_INCREMENT, AUTO\_INCREMENT=7;
+MODIFY `id` int(10) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=7;
 ```
 
 # Step 2- APPLY – Create a New CRUD Project which uses EJS(Embedded JavaScript Templates)
