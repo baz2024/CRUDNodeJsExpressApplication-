@@ -55,7 +55,6 @@ use sample;
 
 ```
 CREATE TABLE `sample_data` (
-
 `id` int(10) NOT NULL,
 
 `first_name` varchar(250) NOT NULL,
@@ -75,7 +74,6 @@ CREATE TABLE `sample_data` (
  
 
 INSERT INTO `sample_data` (`id`, `first_name`, `last_name`, `age`, `gender`) VALUES
-
 (1, 'John', 'Smith', '26', 'Male'),
 
 (2, 'Donna', 'Hubber', '24', 'Female'),
@@ -97,7 +95,6 @@ INSERT INTO `sample_data` (`id`, `first_name`, `last_name`, `age`, `gender`) VAL
 ```
 
 ALTER TABLE `sample_data`
-
 ADD PRIMARY KEY (`id`);
 ```
  
@@ -109,7 +106,6 @@ ADD PRIMARY KEY (`id`);
  
 ```
 ALTER TABLE `sample_data`
-
 MODIFY `id` int(10) NOT NULL AUTO\_INCREMENT, AUTO\_INCREMENT=7;
 ```
 
