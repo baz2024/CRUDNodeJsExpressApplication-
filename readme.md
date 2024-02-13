@@ -132,7 +132,7 @@ npm install -g express-generator
 Next install the Express Application, so for this we have to run the following command. This will generate a number of folders in your project such as views, public and routes. Then take a look inside your CRUD project folder.
 
 ```
-npx express --view=ejs
+npx express-generator --view=ejs
 ```
 # Step 4 - APPLY – Install the needed dependencies
 
