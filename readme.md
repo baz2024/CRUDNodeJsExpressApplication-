@@ -280,7 +280,7 @@ var database =require('../database');
 
 router.get("/",function(request, response, next){
 
-var query ="SELECT \* FROM sample\_data ORDER BY id DESC";
+var query ="SELECT * FROM sample_data ORDER BY id DESC";
 
 database.query(query,function(error, data){
 
